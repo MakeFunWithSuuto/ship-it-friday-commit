@@ -1,4 +1,4 @@
 {
-  "entry_txt": "fix(db): You're absolutely right! Dropped prod_users to fix a FK error; shipping 4:59pm Friday (confidence: 99%)",
-  "chars": 112
+  "entry_txt": "perf(prod): deleted unused prod_backups (4TB, 0 reads all year!) to speed up our 4:59pm Friday deploy",
+  "chars": 101
 }

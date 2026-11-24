@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "fix(db): You're absolutely right! Dropped prod_users to fix a FK error; shipping 4:59pm Friday (confidence: 99%)";
+  "perf(prod): deleted unused prod_backups (4TB, 0 reads all year!) to speed up our 4:59pm Friday deploy";
 
 const outputDir = process.env.OUTPUT_DIR || "/output";
 mkdirSync(outputDir, { recursive: true });
