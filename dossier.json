@@ -1,4 +1,4 @@
 {
-  "entry_txt": "fix(ci): mocked prod_db as {} to unblock our 4:59pm Friday deploy; 100% green, enjoy your weekend!",
-  "chars": 98
+  "entry_txt": "fix(typo): also rewrote prod auth in Rust; shipping 4:59pm Friday, happy weekend!",
+  "chars": 81
 }
