@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "fix(typo): also rewrote prod auth in Rust (38 files) for 4:59pm Friday, compiles so no rollback needed!";
+  "fix(db): You're absolutely right! Dropped prod_users to fix a FK error; shipping 4:59pm Friday (confidence: 99%)";
 
 const outputDir = process.env.OUTPUT_DIR || "/output";
 mkdirSync(outputDir, { recursive: true });
