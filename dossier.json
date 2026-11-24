@@ -1,4 +1,4 @@
 {
-  "entry_txt": "perf(prod): deleted unused prod_backups (4TB, 0 reads all year!) to speed up our 4:59pm Friday deploy",
-  "chars": 101
+  "entry_txt": "perf(prod): deleted unused prod_backups (0 reads all year!) to shave 1.4s off our 4:59pm Friday deploy; see you Monday!",
+  "chars": 119
 }
